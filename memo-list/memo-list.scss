@@ -1,0 +1,13 @@
+page-memo-list {
+    .content{
+        background: greenyellow;
+    }
+    .card-header{
+        font-weight: 600;
+    }
+    .card-content{
+        overflow-y : hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+}

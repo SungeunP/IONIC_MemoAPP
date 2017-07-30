@@ -1,0 +1,47 @@
+<!--
+  Generated template for the MemoDetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="lightBlue">
+    <ion-title>memo-detail</ion-title>
+  <ion-buttons end>
+    <button ion-button icon-only (click)="onDeleteMemo()">
+      <ion-icon name="trash"></ion-icon>  
+    </button>
+    <button ion-button icon-only (click)="onOpenEditMemo()">
+      <ion-icon name="hammer"></ion-icon>  
+    </button>  
+  </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-header>
+      <h1>MEMO Title</h1>
+    </ion-card-header>
+    <ion-card-content>
+      <p>MEMO Contents</p>
+      <div class="etc">
+        <p>
+          <span>Author</span>
+          메모 작성자
+        </p>
+        <p>
+          <span>Published Date</span>
+          메모 작성일
+        </p>
+        <p>
+          <span>Update Date</span>
+          메모 최근 수정일
+        </p>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,27 @@
+<!--
+  Generated template for the SignInPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and <navigation class=""></navigation>
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Main Page</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<div class="image-wrap">
+  <p> Notepad App </p>
+  <img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/notepad-icon.png" 
+  (click)="onClickIrene()"/>
+  
+
+  <button ion-button block color="light" (click)="onClickEmailLogIn()">이메일로 로그인</button>
+  <button ion-button block color="lightBlue" (click)="onClickFacebookLogin()">페이스북으로 로그인</button>
+  <p class="sign-up-text" style="text-align:center" (click)="onClickSignUp()">회원가입</p>
+</div>
+</ion-content>
